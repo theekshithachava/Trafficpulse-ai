@@ -43,8 +43,7 @@ needs a road improvement. The system tells them apart instead of treating everyt
 
 - **Not Google Maps** — it serves the people managing the whole city, not one driver.
 - **Not a chatbot** — it analyses data and produces decisions with evidence.
-- **Nothing real is controlled** — no live signals, cameras, GPS, sensors or construction. Every plan is a simulation or a suggestion (a hackathon rule).
-
+- **Nothing real is controlled** — no live signals, cameras, GPS, sensors or construction. Every plan is a simulation or a suggestion 
 ## 3. The dataset
 
 Organiser dataset: **NeuraX Smart Cities v2** (folder `NEURAX_SMART_CITIES_TRAINING_V2`).
