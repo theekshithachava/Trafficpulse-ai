@@ -1,6 +1,6 @@
 # Urban Traffic Flow & Incident Intelligence
 
-**NEURAX Hackathon 3.0 · Domain 1 – AI in Smart Cities · Checkpoint 1**
+** AI in Smart Cities ·1**
 
 A software-only, advisory decision-support system for a city traffic control room. It reads the
 organiser-provided traffic and road-network data, works out what is happening on the roads right now,
@@ -21,8 +21,7 @@ tested road improvement for a jam that happens every day. **It only advises. It 
 6. [Setup instructions](#6-setup-instructions)
 7. [Configuration](#7-configuration)
 8. [How to run](#8-how-to-run)
-9. [Checkpoint status](#9-checkpoint-status)
-10. [Team](#10-team)
+9. [Team](#10-team)
 
 ---
 
@@ -205,22 +204,15 @@ streamlit run app/dashboard.py
 Outputs are written to `OUTPUT_DIR` as CSV/JSON: `alerts.csv`, `forecasts.csv`, `recommendations.json`,
 each row carrying its evidence and a confidence value.
 
-## 9. Checkpoint status
-
-| Checkpoint | Marks | Status |
-|------------|-------|--------|
-| **1 — README / Research / configuration** | 15 | ✅ This README, `.env.example`, `requirements.txt`, and `docs/Research_Document.docx` |
-| 2 — Partial execution | 25 | 🔜 cleaning report, road-map graph, basic detection, baseline forecaster, first diversion example, minimal dashboard |
-| 3 — Full solution | 60 | 🔜 trained incident detector with false-alarm control, stronger forecaster with confidence, full recommendations, stress tests, explainability, polished UI |
 
 ## 10. Team
 
 | Name | Role |
 |------|------|
-| _____________ | _____________ |
-| _____________ | _____________ |
-| _____________ | _____________ |
-
+| NAVYA SREE | AI/ML Developer |
+| SAICHARAN | Backend & Data Developer |
+| TEEKSHITHA | Frontend & Dashboard Developer |
+|JALADA|Data Analysis & Integration|
 ---
 
 *All actions, diversion plans and network suggestions produced by this system are simulated or advisory, as required by the problem statement.*
